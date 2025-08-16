@@ -1,0 +1,37 @@
+# Currículum y Portafolio de Carolina y Dallane
+
+Este repositorio contiene el código fuente para el currículum y portafolio personal de Carolina Hernández y Dallane Cubillo. El sitio web permite a los visitantes conocer los perfiles de ambas, sus habilidades y proyectos destacados, así como contactarlas a través de un formulario.
+
+## Características
+
+- _Perfiles Individuales_: Páginas dedicadas para Carolina y Dallane con sus respectivas habilidades y proyectos.
+
+- _Modo Oscuro/Claro_: Funcionalidad para alternar entre un tema de color claro y oscuro, mejorando la accesibilidad y la experiencia del usuario.
+
+- _Formulario de Contacto_: Un formulario interactivo que permite a los visitantes enviar mensajes directamente a Carolina o Dallane a través de su cliente de correo predeterminado.
+
+- _Diseño Responsivo_: Adaptado para verse bien en diferentes tamaños de pantalla.
+
+- _Proyectos Destacados_: Sección donde se muestran los proyectos más relevantes de cada perfil con descripciones y tecnologías utilizadas.
+
+## Cómo Usar
+
+Para visualizar el portafolio localmente:
+
+1.  _Clona el repositorio_ (si aplica):
+    bash
+    git clone [URL_DE_TU_REPOSITORIO]
+    cd MultipleFiles
+
+    Si no usas Git, simplemente descarga los archivos.
+
+2.  **Abre index.html**:
+    Haz doble clic en el archivo index.html en tu explorador de archivos, o arrástralo a tu navegador web preferido (Chrome, Firefox, Edge, etc.).
+
+## Contacto
+
+Puedes contactar a Carolina o Dallane a través del formulario de contacto en la página principal del portafolio.
+
+---
+
+© 2025 — Caroo & Dallane

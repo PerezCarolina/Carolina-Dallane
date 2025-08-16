@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Currículum y Portafolio | Caroo & Dallane</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar container">
+        <div class="brand">
+          <div class="logo"></div>
+          <span>CV & Portafolio</span>
+        </div>
+        <nav>
+          <a href="#personas">Perfiles</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="controls">
+          <button id="mode" type="button">Modo oscuro</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1 id="personas">Conócenos</h1>
+
+      <!-- Perfiles -->
+      <section class="profiles section">
+        <!-- Perfil Carolina -->
+        <a href="carolina.html" class="profile-card">
+          <img src="assets/images/profile-caroo.jpg" alt="Carolina Hernandez" />
+          <h1>¡Hola! Soy Carolina Hernández ✨</h1>
+          <p>Diseño web y experiencia de usuario.</p>
+          <div class="badges">
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">Figma</span>
+          </div>
+        </a>
+
+        <!-- Perfil Dallane -->
+        <a href="dallane.html" class="profile-card">
+          <img src="assets/images/profile-dallane.jpg" alt="Dallane Cubillo" />
+          <h1>¡Hola! Soy Dallane Cubillo ✨</h1>
+          <p>Bases de datos y programación back-end.</p>
+          <div class="badges">
+            <span class="badge">C#</span>
+            <span class="badge">SQL</span>
+            <span class="badge">Git</span>
+            <span class="badge">Python</span>
+          </div>
+        </a>
+      </section>
+
+      <!-- Contacto -->
+      <section id="contacto" class="section">
+        <div class="card">
+          <h2>Formulario de contacto</h2>
+          <form id="contactForm" novalidate>
+            <div class="form-field">
+              <label for="destinatario">Enviar a</label>
+              <select id="destinatario" name="destinatario" required>
+                <option value="caroo">Caroo</option>
+                <option value="dallane">Dallane</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" name="nombre" type="text" required />
+            </div>
+            <div class="form-field">
+              <label for="correo">Correo</label>
+              <input id="correo" name="correo" type="email" required />
+            </div>
+            <div class="form-field">
+              <label for="mensaje">Mensaje</label>
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+            <p id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>© 2025 — Caroo & Dallane</footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
